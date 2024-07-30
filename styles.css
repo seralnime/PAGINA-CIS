@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #000;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+section img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+#bienvenida {
+    display: flex;
+    align-items: center;
+}
+
+#bienvenida img {
+    width: 30%;
+    height: auto;
+    margin-right: 20px;
+}
+
+#bienvenida .content {
+    width: 70%;
+}
+
+#objetivos {
+    display: flex;
+    align-items: center;
+}
+
+#objetivos img {
+    width: 20%;
+    height: auto;
+    margin-right: 20px;
+}
+
+#objetivos .content {
+    width: 80%;
+}
+
+.objectives-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.objectives-grid div {
+    width: 45%;
+    margin: 2.5%;
+}
+
+#actividades {
+    text-align: center;
+}
+
+.activities-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.activities-grid div {
+    width: 30%;
+}
+
+#beneficios {
+    display: flex;
+    align-items: center;
+}
+
+#beneficios img {
+    width: 20%;
+    height: auto;
+    margin-right: 20px;
+}
+
+#beneficios .content {
+    width: 80%;
+}
+
+.benefits-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.benefits-grid div {
+    width: 45%;
+    margin: 2.5%;
+}
+
+.benefits-grid .wide {
+    width: 95%;
+    margin: 2.5%;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
