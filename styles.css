@@ -40,7 +40,7 @@ section {
     padding: 20px;
     position: relative;
 }
-
+/*
 section img {
     position: absolute;
     top: 20px;
@@ -48,16 +48,36 @@ section img {
     width: 50px;
     height: 50px;
 }
+  */ 
 
 #bienvenida {
     display: flex;
     align-items: center;
 }
-
+/*
 #bienvenida img {
-    width: 30%;
+    width: 20%;
     height: auto;
     margin-right: 20px;
+}*/
+#logoBN{
+    width: 30%;
+    position: absolute;
+    margin-right: 10px;
+    top: 20px;
+    right: 20px;
+   /* width: 100px;
+    height: 90px;*/
+    height: auto;
+
+}
+table{
+    margin: 0%;
+}
+#fondoBn{
+    width: 80%;
+    height: auto;
+    margin-right: 1px;
 }
 
 #bienvenida .content {
